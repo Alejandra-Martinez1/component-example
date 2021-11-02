@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { UgglyButtonComponent } from './uggly-button/uggly-button.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UgglyButtonComponent
   ],
   imports: [
     BrowserModule,
